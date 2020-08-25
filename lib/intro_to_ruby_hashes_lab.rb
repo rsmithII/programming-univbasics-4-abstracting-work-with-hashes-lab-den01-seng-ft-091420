@@ -7,8 +7,7 @@ end
 
 def read_from_hash(hash, key)
   
-  # return the correct value using the hash and key parameters   expect(read_from_hash({name: 'Steve'}, :name)).to eq('Steve')
-      expect(read_from_hash({'name' => 'Tzvi'}, 'name')).to eq('Tzvi')
+  # return the correct value using the hash and key parameters   
 end
 
 def update_counting_hash(hash, key)
